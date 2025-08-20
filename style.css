@@ -80,68 +80,17 @@ nav{
 /* Header-end */
 
 /* main section start */
-h1{
-    margin-left: 20px;
+@media (max-width: 400px){
+    .images{
+       padding:20px;
+       display: grid;
+       grid-template-columns: minmax(0, 1fr);
+       gap: 20px;
+    }
+    .images img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
 }
-
-h2{
-    margin-left: 20px;
-}
-
-span{
-    color: #003E8F;
-}
-
-.meal{
-    margin-left: 80px;
-    width: 95%;
-    height: fit-content;
-    
-}
-.meal img{
-    background-color: white;
-    margin: 10px;
-    justify-content: center;
-    
-}
-
-
-.drink{
-    margin-left: 80px;
-    width: 95%;
-}
-.drink img{
-   margin: 10px;
-   width: fit-content;
-}
-
-.order{
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-    height: 40vh;
-    background-color: #1A2E05;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    border-radius: 0, 30px, 0, 35px;
-}
-
-.order h1{
-    color: #9BDB56;
-    margin-left: 40px;
-}
-
-.free{
-  margin-bottom: 5px;
-  font-size: 40px;
-  font-weight: bold;
-  color: #95d650;
-}
-
-label{
-    align-items: center;
-    margin: 30px;
-}
+/* main section end */
