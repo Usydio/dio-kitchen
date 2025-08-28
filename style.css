@@ -80,6 +80,11 @@ nav{
 /* Header-end */
 
 /* main section start */
+
+main{
+    padding: 20px;
+}
+
 .dio{
     padding-left: 20px;
 }
@@ -89,6 +94,10 @@ nav{
 
 ol{
     padding-left: 50px;
+}
+
+.chilled{
+    padding-left: 20px;
 }
 
 @media (max-width: 400px){
