@@ -80,6 +80,17 @@ nav{
 /* Header-end */
 
 /* main section start */
+.dio{
+    padding-left: 20px;
+}
+.dio span{
+    color: #003e8f;
+}
+
+ol{
+    padding-left: 50px;
+}
+
 @media (max-width: 400px){
     .images{
        padding:20px;
@@ -93,4 +104,182 @@ nav{
         object-fit: cover;
     }
 }
+
+@media (401px <= width <= 639px){
+    .images{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+    }
+    .images img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
+
+@media (640px <= width <= 767px){
+    .images{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px;
+    }
+    .images img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
+
+@media (768px <= width <= 1023px){
+    .images{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 20px;
+    }
+    .images img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1024px){
+    .images{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 20px;
+    }
+    .images img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+    }
+}
+
+form label {
+    display: inline-block;
+    width: 100px;
+    margin: 10px
+}
+
+form button {
+    margin-left: 10px;
+    background-color: #003e8f;
+    color: white;
+}
+
+/* counter section */
+
+.counter{
+    display: flex;
+    background-color: #1a2e05;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center; 
+    padding: 40px;
+    color: #9bdb56;
+    margin: 20px 10px 40px 10px;
+    border-radius: 0 40px 0 40px;
+
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 50px;
+  color: #9bdb56;
+  font-weight: bold;
+}
+
+.buttons{
+    background-color:#9bdb56;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 7px;     
+}
+button{
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.rider-div {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffcc29;
+}
+
+.rider-text {
+  width: 50%;
+  height: 45vh;
+  align-content: center;
+}
+
+.rider-image {
+  width: 50%;
+  height: 45vh;
+}
+
+.Trust-h1 {
+  color: #ff0000;
+  font-weight: 900;
+}
+
+.launch-h1 {
+  color: white;
+  font-weight: 900;
+}
+
+
+.rider-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  height: 10vh;
+  width: 99%;
+  background-color: #ff0000;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  color: white;
+  font-weight: bold;
+}
+@media (max-width: 639px){
+    .rider-div {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+    .rider-text {
+    width: 100%;
+    height: 100%;
+  }
+
+  .rider-image {
+    width: 100%;
+    height: 100%;
+  }
+
+  .trust-h1 {
+  color: #ff0000;
+  font-size: 25px;
+  }
+
+  .launch-h1 {
+    color: white;
+    font-size: 25px;
+  }
+
+}
+
 /* main section end */

@@ -31,8 +31,8 @@
   </header>
   <!-- main section start -->
   <body>
-    <h1>Welcom to <span>Dio Kitchen</span></h1>
-    <h2>You can now order from our choice meals</h2>
+    <h1 class="dio">Welcom to <span>Dio Kitchen</span></h1>
+    <h2 class="dio">You can now order from our choice meals</h2>
     <ol>
       <li>Rice</li>
       <li>Amala</li>
@@ -52,7 +52,8 @@
       <img src="images/Pound.jpeg" alt="" />
       <img src="images/beans.jpeg" alt="" />
       <img src="images/shawarma.jpeg" alt="" />
-    </div><br>
+    </div>
+    <br />
     <hr />
     <div>
       <ul>
@@ -66,7 +67,8 @@
         <li>Hennesy</li>
       </ul>
     </div>
-    <!-- <div class="images">
+    <h2>Check out our chilled drinks</h2>
+    <div class="images">
       <img src="images/fearles.jpeg" alt="" />
       <img src="images/five.jpeg" alt="" />
       <img src="images/Fruit.jpeg" alt="" />
@@ -75,10 +77,11 @@
       <img src="images/cola.jpeg" alt="" />
       <img src="images/energy.jpeg" alt="" />
       <img src="images/hennesy.jpeg" alt="" />
-    </div><br> -->
-    <hr>
-  </body>
-  <!-- <form action="submit">
+    </div>
+    <br />
+    <hr />
+
+    <form action="submit">
       <label for="username">Username</label>
       <input type="text" name="username" id="username" /><br />
       <label for="email">Email</label>
@@ -88,18 +91,37 @@
       <label for="confpwd">Confirm password</label>
       <input type="password" name="confpwd" id="confpwd" /><br />
       <button type="submit">Subscribe</button>
-    </form> -->
-  <h2>Check out our chilled drinks</h2>
-  <!-- <label for=""></label> -->
+    </form>
 
-  <!-- <div class="meal">
-      <div class="img-div">
-        <img src="images/fish.jpeg" alt="">
+    <div class="counter">
+      <h1>Feel free to set or cancel your order</h1>
+      <label id="countLabel" for="label"></label>
+      <div class="buttons">
+        <button type="submit" id="decreasBtn">Decrease</button>
+        <button type="submit" id="resetBtn">Reset</button>
+        <button type="submit" id="increaseBtn">Increase</button>
       </div>
-      <div class="text-div">
-        <h1>Meet our Barbeque</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam consequuntur eveniet praesentium corporis atque iusto, nihil exercitationem doloribus eaque sed explicabo ab distinctio possimus deleniti quibusdam repellat, vitae beatae molestiae!</p>
-      </div>
-  </body> -->
-  <!-- main section end -->
+    </div>
+
+    <div class="rider-div">
+        <div class="rider-text">
+          <h1 class="trust-h1">Trust our dispatch rider</h1>
+          <h1 class="launch-h1">Your launch is a call away !!</h1>
+        </div>
+        <div class="rider-image">
+          <img src="images/dispatch_rider.webp" alt="">
+        </div>
+      </div>  
+    </main>
+    <!-- main section end -->
+    <footer>
+      <p>&copy; Copyright 2025 Tasty Fries</p>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+  
+  <!-- <label for=""></label> -->
+ <!-- main section end -->
+  
 </html>
